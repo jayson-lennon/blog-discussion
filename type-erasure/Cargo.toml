@@ -1,0 +1,9 @@
+[package]
+name = "type-erasure"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+derive_more = { version = "2.0.1", features = ["full"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
